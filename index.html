@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - LUANY GABRIELLA SANDIM</title>
+    <link rel="stylesheet" href="css/css/style.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <img src="img/png1.png" alt="Foto de Perfil de Devliyy">
+            <div>
+                <h2>1. Sobre Mim</h2>
+                <h3>Meu nome é Luany, tenho 21 anos e gosto muito de café. Iniciei meus estudos em programação recentemente e por isso esse site está em desenvolvimento. 
+                    Tenho diversos interesses variados, do crochê até desenvolvimento de jogos de sci-fi; Sou fluente em 5 idiomas e atualmente estudo mandarim; 
+                    Toda ajuda/amizade é bem vinda <3.</h3>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <h2>2. Formação</h2>
+            <h3>Estou cursando engenharia de software na Uninter e um tecnólogo em GESTÃO COMERCIAL na UFMS.</h3>
+        </section>
+
+        <section id="portfolio">
+            <h2>3. Portfólio</h2>
+            
+            <div class="grid-portfolio">
+                <div class="portfolio-item">
+                    <img src="img/appest.png" alt="Projeto de aplicativo de estudos:Ainda em desenvolvimento.">
+                    <div class="overlay">
+                        <p>Aplicativo de Estudos: Interface de organização.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="img/lobinhopixelart.png" alt="Projeto de Jogo 2D em pixel art: Cena de plataforma com personagem estilo lobo.">
+                    <div class="overlay">
+                        <p>Projeto de Jogo 2D em pixel art: Sprite do player, jogo de plataforma com personagem estilo lobinho.</p>
+                    </div>
+                </div>
+                                <div class="portfolio-item">
+                    <img src="img/lobinho.png" alt="Projeto de Jogo 2D em pixel art: Cena de plataforma com personagem estilo lobo.">
+                    <div class="overlay">
+                        <p>Projeto de Jogo 2D em pixel art: Cena de plataforma com personagem estilo lobo.</p>
+                    </div>
+                </div>
+                
+                </div>
+        </section>
+        
+
+        <section id="contato">
+            <h2>4. Contato</h2>
+            <h3>Email para contato: kalliygabriella@gmail.com</h3>
+            
+            <form id="contact-form" action="#" method="POST">
+                
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                </div>
+
+                <div>
+                    <label for="mensagem">Sua Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Luany Gabriella Sandim</p>
+    </footer>
+</body>
+</html>
